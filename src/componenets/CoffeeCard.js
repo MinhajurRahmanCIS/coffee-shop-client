@@ -39,7 +39,7 @@ const CoffeeCard = ({ coffee, setCoffee, coffees }) => {
 
     return (
         <div className="card card-side bg-[#F5F4F1] shadow-xl rounded-none">
-            <figure><img className='hover:opacity-90' src={photo} alt="Movie" /></figure>
+            <figure><img className='hover:opacity-90' src={photo} alt="coffee" /></figure>
             <div className="flex justify-between items-center w-full my-10 pr-4">
                 <div>
                     <h2 className="card-title mb-5">{name}</h2>
